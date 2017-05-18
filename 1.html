@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		var username=prompt("Enter a username");
+		var password=prompt("Enter a password");
+		var login=[username,password];
+		if(login[0]==[] || login[1]==[] ){
+			alert("You didn't enter username or password!")
+		}else if(login[0]!="admin" && login[1]!="admin"){
+			alert("You entered wrong username or password!")
+		}else{
+			document.write("You registered succesfully. Congratulations! ")
+		}
+	
+
+
+	</script>
+</body>
+</html>
